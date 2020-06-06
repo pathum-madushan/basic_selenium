@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTests" verbose="1">
+
+	<!-- following are the two tests for possitive & negative tests -->
+
+	<test name="PositiveTests">
+		<classes>
+			<!-- Copy & paste the class location -->
+			<class name="com.herokuapp.theinternet.PositiveTests" />
+		</classes>
+	</test>
+
+	<test name="NegativeTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.NegativeTests" />
+		</classes>
+	</test>
+
+
+</suite>
+
+<!--tute section 4  tute no 6 -->

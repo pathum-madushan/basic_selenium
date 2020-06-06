@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Exceptions tests suite]">
+  <test thread-count="5" name="Exceptions tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.Exceptionstests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="staleElementTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.Exceptionstests -->
+    </classes>
+  </test> <!-- Exceptions tests(failed) -->
+</suite> <!-- Failed suite [Exceptions tests suite] -->
